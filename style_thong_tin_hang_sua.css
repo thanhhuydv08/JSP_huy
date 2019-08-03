@@ -1,0 +1,21 @@
+@charset "UTF-8";
+td {
+border-style: dotted;
+border-color: gray;
+
+}
+th{
+	color: red;
+}
+img{
+	height: 30px;
+	width: 30px;
+}
+
+td:nth-child(3) {
+	text-align: center;
+	
+}
+tr:nth-child(even) {
+	background: orange;
+}
